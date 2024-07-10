@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import { RoutesPaths } from './enum/routes.enum';
-import AboutMe from './pages/AboutMe/AboutMe';
-import Contact from './pages/Contact/Contact';
-import Experiencie from './pages/Experience/Experiencie';
-import NotFound from './pages/NotFound/NotFound';
-import Projects from './pages/Projects/Projects';
+import AboutMe from './modules/AboutMe/AboutMe';
+import Contact from './modules/Contact/Contact';
+import Experiencie from './modules/Experience/Experiencie';
+import NotFound from './modules/NotFound/NotFound';
+import Projects from './modules/Projects/Projects';
 
 function App() {
   return (
