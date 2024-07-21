@@ -1,5 +1,5 @@
 import { DefaultMantineColor } from '@mantine/core';
-import { Technologies } from '../../modules/Experience/constants';
+import { Technologies } from '../../pages/Experience/constants';
 
 interface IProject {
   title: string;
@@ -8,6 +8,7 @@ interface IProject {
   image: string;
   color: DefaultMantineColor;
   date: string;
+  company: string;
   description: string;
   technologies: {
     name: Technologies;

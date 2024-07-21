@@ -5,8 +5,6 @@ import { useLocation, useNavigate } from 'react-router';
 import classes from './HeaderSimple.module.css';
 
 const links = [
-  { link: '/projects', label: 'Proyectos' },
-  { link: '/about-me', label: 'Sobre mí' },
   { link: '/experience', label: 'Experiencia' },
   { link: '/contact', label: 'Contacto' },
 ];
